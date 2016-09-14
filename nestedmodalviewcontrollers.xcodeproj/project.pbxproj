@@ -13,6 +13,9 @@
 		D0B53E5D1D8915A000A6FAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B53E5C1D8915A000A6FAC4 /* Assets.xcassets */; };
 		D0B53E601D8915A000A6FAC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B53E5E1D8915A000A6FAC4 /* LaunchScreen.storyboard */; };
 		D0B53E6B1D8915A000A6FAC4 /* nestedmodalviewcontrollersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B53E6A1D8915A000A6FAC4 /* nestedmodalviewcontrollersTests.swift */; };
+		D0B53E761D89191100A6FAC4 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B53E751D89191100A6FAC4 /* ViewControllerA.swift */; };
+		D0B53E781D89192300A6FAC4 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B53E771D89192300A6FAC4 /* ViewControllerB.swift */; };
+		D0B53E7A1D89193400A6FAC4 /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B53E791D89193400A6FAC4 /* ViewControllerC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D0B53E661D8915A000A6FAC4 /* nestedmodalviewcontrollersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nestedmodalviewcontrollersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B53E6A1D8915A000A6FAC4 /* nestedmodalviewcontrollersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nestedmodalviewcontrollersTests.swift; sourceTree = "<group>"; };
 		D0B53E6C1D8915A000A6FAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B53E751D89191100A6FAC4 /* ViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		D0B53E771D89192300A6FAC4 /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		D0B53E791D89193400A6FAC4 /* ViewControllerC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				D0B53E5C1D8915A000A6FAC4 /* Assets.xcassets */,
 				D0B53E5E1D8915A000A6FAC4 /* LaunchScreen.storyboard */,
 				D0B53E611D8915A000A6FAC4 /* Info.plist */,
+				D0B53E751D89191100A6FAC4 /* ViewControllerA.swift */,
+				D0B53E771D89192300A6FAC4 /* ViewControllerB.swift */,
+				D0B53E791D89193400A6FAC4 /* ViewControllerC.swift */,
 			);
 			path = nestedmodalviewcontrollers;
 			sourceTree = "<group>";
@@ -198,6 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B53E581D8915A000A6FAC4 /* ViewController.swift in Sources */,
+				D0B53E781D89192300A6FAC4 /* ViewControllerB.swift in Sources */,
+				D0B53E7A1D89193400A6FAC4 /* ViewControllerC.swift in Sources */,
+				D0B53E761D89191100A6FAC4 /* ViewControllerA.swift in Sources */,
 				D0B53E561D8915A000A6FAC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
